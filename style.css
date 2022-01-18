@@ -1,0 +1,16 @@
+canvas{
+    animation-name:bg;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+@keyframes bg {
+    from{
+        box-shadow: 1px 1px 38px red ;
+    }
+ to{
+     box-shadow:1px 1px 38px yellow;
+ }
+}
+.btn-success:hover{
+background-color:brown;
+}
